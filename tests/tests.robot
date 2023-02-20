@@ -4,8 +4,8 @@ Library                                  QForce
 Library                                  DataDriver         file=DataDriven.csv    include=tagtoinclude    exclude=tagtoexclude
 # Library                                DataDriver         file=DataDriven.csv
 # Library                                DataDriver         file=${leads-data}
-Resource                                 ../resources/pages/browser.robot
-Resource                                 ../resources/pages/login.robot
+Resource                                 ../pages/browser.robot
+Resource                                 ../pages/login.robot
 Resource                                 ../pages/launcher.robot
 Resource                                 ../pages/leads.robot
 Resource                                 ../pages/newlead.robot
