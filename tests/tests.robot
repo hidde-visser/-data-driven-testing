@@ -6,8 +6,8 @@ Library                                  DataDriver         file=DataDriven.csv 
 # Library                                DataDriver         file=${leads-data}
 Resource                                 ../resources/pages/browser.robot
 Resource                                 ../resources/pages/login.robot
-Resource                                 ../resources/pages/launcher.robot
-Resource                                 ../resources/pages/leads.robot
+Resource                                 ../pages/launcher.robot
+Resource                                 ../pages/leads.robot
 Resource                                 ../resources/pages/newlead.robot
 Test Setup                               Run Keywords    Setup Browser    LogOn to SalesForce
 Test Template                            Create Lead Preferred
