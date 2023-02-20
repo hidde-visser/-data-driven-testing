@@ -1,5 +1,5 @@
 *** Test Cases ***;${leadstatus};${salutation};${firstname};${lastname};${company};[Tags];[Documentation]
-Datadriver CSV Create New Lead Lead Status Open - Not Contacted Mr. Patrick Kievit;New;Mr.;Patrick;Kievit;Copado;tagtoinclude;This is test case documentation of the first test
-Datadriver CSV Create New Lead Lead Status Working - Contacted Mrs. Elly Smith;New;Mrs.;Elly;Smith;Copado;tagtoinclude;This is test case documentation of the second test
-Datadriver CSV Create New Lead Lead Status Closed - Converted Mrs. Aileen Hobs;Working;Mrs.;Aileen;Hobs;Copado;tagtoexclude;This is test case documentation of the third test
-Datadriver CSV Create New Lead Lead Status Closed - Not Converted Mr. Jovi;Working;Mr.;${EMPTY};Jovi;Copado;tagtoexclude;This is test case documentation of the fourth test
+Datadriver CSV Create New Lead Lead Status Open - Not Contacted Mr. Patrick Kievit;Open - Not Contacte;Mr.;Patrick;Kievit;Copado;tagtoinclude;This is test case documentation of the first test
+Datadriver CSV Create New Lead Lead Status Working - Contacted Mrs. Elly Smith;Working - Contacted;Mrs.;Elly;Smith;Copado;tagtoinclude;This is test case documentation of the second test
+Datadriver CSV Create New Lead Lead Status Closed - Converted Mrs. Aileen Hobs;Closed - Converted;Mrs.;Aileen;Hobs;Copado;tagtoexclude;This is test case documentation of the third test
+Datadriver CSV Create New Lead Lead Status Closed - Not Converted Mr. Jovi;Closed - Not Converted;Mr.;${EMPTY};Jovi;Copado;tagtoexclude;This is test case documentation of the fourth test
