@@ -12,6 +12,6 @@ LogOn to SalesForce
     VerifyText         Username
     TypeText           Username    ${username}
     TypeSecret         Password    ${password}
-    ClickText          Log In to Sandbox
+    ClickText          Log In
     VerifyText         Sales
     LogScreenshot
