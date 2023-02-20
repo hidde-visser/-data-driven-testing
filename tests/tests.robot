@@ -1,7 +1,7 @@
 *** Settings ***
 Library                                  QWeb
 Library                                  QForce
-Library                                  DataDriver         file=DataDriven.csv    include=tagtoinclude    exclude=tagtoexclude
+Library                                  DataDriver         file=../resources/DataDriven.csv    include=tagtoinclude    exclude=tagtoexclude
 # Library                                DataDriver         file=DataDriven.csv
 # Library                                DataDriver         file=${leads-data}
 Resource                                 ../pages/browser.robot
