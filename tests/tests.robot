@@ -8,7 +8,7 @@ Resource                                 ../resources/pages/browser.robot
 Resource                                 ../resources/pages/login.robot
 Resource                                 ../pages/launcher.robot
 Resource                                 ../pages/leads.robot
-Resource                                 ../resources/pages/newlead.robot
+Resource                                 ../pages/newlead.robot
 Test Setup                               Run Keywords    Setup Browser    LogOn to SalesForce
 Test Template                            Create Lead Preferred
 Test Teardown                            Close the Browser
