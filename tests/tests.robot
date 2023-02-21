@@ -32,9 +32,9 @@ Create Lead
     Click Button Save Lead
 
 
-# Create Lead Preferred
-#      [Arguments]    ${leadstatus}   ${salutation}    ${firstname}    ${lastname}    ${company}
-#      Open Leads
-#      Click Button New Lead
-#      Enter Fields to create Lead   ${leadstatus}   ${salutation}    ${firstname}    ${lastname}    ${company}
-#      Click Button Save Lead
+Create Lead Preferred
+     [Arguments]    ${leadstatus}   ${salutation}    ${firstname}    ${lastname}    ${company}
+     Open Leads
+     Click Button New Lead
+     Enter Fields to create Lead   ${leadstatus}   ${salutation}    ${firstname}    ${lastname}    ${company}
+     Click Button Save Lead
