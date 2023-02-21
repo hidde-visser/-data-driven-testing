@@ -2,8 +2,6 @@
 Library                                  QWeb
 Library                                  QForce
 Library                                  DataDriver         file=../resources/DataDriven.csv    #include=tagtoinclude    exclude=tagtoexclude
-# Library                                DataDriver         file=DataDriven.csv
-# Library                                DataDriver         file=${leads-data}
 Resource                                 ../pages/browser.robot
 Resource                                 ../pages/login.robot
 Resource                                 ../pages/launcher.robot
@@ -17,6 +15,9 @@ Suite Teardown                           Close All Active Browsers
 *** Test Cases ***
 Create Lead Preferred with ${leadstatus} ${salutation} ${firstname} ${lastname} ${company}
 # Create Lead Preferred     New     Mr.     Patrick     Kievit     Copado
+
+Log variable
+    Log Variables
 
 *** Keywords ***
 Create Lead
