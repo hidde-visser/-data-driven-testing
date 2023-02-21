@@ -23,6 +23,7 @@ Log variable
 *** Keywords ***
 Create Lead
     [Arguments]    ${leadstatus}   ${salutation}    ${firstname}    ${lastname}    ${company}
+    Log Variables
     Open Leads
     Click Button New Lead
     UseModal                                        On
