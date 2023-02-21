@@ -16,10 +16,6 @@ Suite Teardown                           Close All Active Browsers
 Create Lead Preferred with ${leadstatus} ${salutation} ${firstname} ${lastname} ${company}
 # Create Lead Preferred     New     Mr.     Patrick     Kievit     Copado
 
-Log variable
-    [Tags]    hid_test
-    Log Variables
-
 *** Keywords ***
 Create Lead
     [Arguments]    ${leadstatus}   ${salutation}    ${firstname}    ${lastname}    ${company}
