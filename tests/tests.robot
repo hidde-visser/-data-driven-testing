@@ -17,6 +17,7 @@ Create Lead Preferred with ${leadstatus} ${salutation} ${firstname} ${lastname} 
 # Create Lead Preferred     New     Mr.     Patrick     Kievit     Copado
 
 Log variable
+    [Tags]    hid_test
     Log Variables
 
 *** Keywords ***
